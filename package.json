@@ -1,0 +1,32 @@
+{
+  "name": "tiago",
+  "displayName": "tiago-green-theme",
+  "description": "Extensao para vscode. Todos podem usar",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "icon": "caju.png",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "tipe": "git",
+    "url": "https://github.com/tiago1811/vscode-thema-extensao.git"
+  },
+  "keywords": [
+    "green",
+    "theme",
+    "dark-green",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "tiago de melo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tiago de melo-color-theme.json"
+      }
+    ]
+  }
+}
